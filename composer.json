@@ -1,5 +1,5 @@
 {
-    "name": "vivaweb/apple-price-tier-convert",
+    "name": "vivaweb/apple-utils",
     "description": "PHP Apple Price Tier Convert",
     "type": "function",
     "autoload": {
