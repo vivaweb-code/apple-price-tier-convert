@@ -1,1 +1,1 @@
-# apple-price-tier-convert
+# Apple Price Tier Convert for PHP
