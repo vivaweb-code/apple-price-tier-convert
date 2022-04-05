@@ -1,0 +1,17 @@
+{
+    "name": "vivaweb/apple-price-tier-convert",
+    "description": "PHP Apple Price Tier Convert",
+    "type": "function",
+    "autoload": {
+        "psr-4": {
+            "Vivaweb\\AppleUtils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Bona",
+            "email": "eduardobona@vivaweb.net"
+        }
+    ],
+    "require": {}
+}
