@@ -5,9 +5,11 @@ namespace Vivaweb\AppleUtils;
 
 use \Exception;
 
+/**
+ * TODO: default => USD not BRL
+ */
 class PriceTierConvert
 {
-    // TODO default => USD not BRL
     static public $tiers = [
         1 => 4.9,
         2 => 10.9,
@@ -100,8 +102,6 @@ class PriceTierConvert
 
     static public function lowerTierByPrice(float $price, $currency = null)
     {
-        $tiers = self::$tiers;
-
         if ($currency) {
             $arrayFilename = __DIR__ . '/../data/tiers/' . $currency . '.php';
             $tiers = include $arrayFilename;
