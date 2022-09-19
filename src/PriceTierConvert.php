@@ -5,9 +5,6 @@ namespace Vivaweb\AppleUtils;
 
 use \Exception;
 
-/**
- * TODO: default => USD not BRL
- */
 class PriceTierConvert
 {
     static public $tiers = [
